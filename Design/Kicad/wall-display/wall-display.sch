@@ -1,0 +1,137 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 8x8_Displays:DISP_LED_MAT_8x8_COM_ANODE D1
+U 1 1 5E9997D1
+P 4900 3250
+F 0 "D1" H 5575 4337 60  0000 C CNN
+F 1 "DISP_LED_MAT_8x8_COM_ANODE" H 5575 4231 60  0000 C CNN
+F 2 "" H 5000 3200 60  0000 C CNN
+F 3 "" H 5000 3200 60  0000 C CNN
+	1    4900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS138 U1
+U 1 1 5E9A5E99
+P 1950 1650
+F 0 "U1" H 1950 2431 50  0000 C CNN
+F 1 "74LS138" H 1950 2340 50  0000 C CNN
+F 2 "" H 1950 1650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 1950 1650 50  0001 C CNN
+	1    1950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS138 U2
+U 1 1 5E9A6917
+P 2650 3200
+F 0 "U2" H 2650 3981 50  0000 C CNN
+F 1 "74LS138" H 2650 3890 50  0000 C CNN
+F 2 "" H 2650 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 2650 3200 50  0001 C CNN
+	1    2650 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U3
+U 1 1 5E9A7DC3
+P 3700 2450
+F 0 "U3" H 3700 2767 50  0000 C CNN
+F 1 "74LS04" H 3700 2676 50  0000 C CNN
+F 2 "" H 3700 2450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3700 2450 50  0001 C CNN
+	1    3700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U3
+U 2 1 5E9A9EBB
+P 3700 2950
+F 0 "U3" H 3700 3267 50  0000 C CNN
+F 1 "74LS04" H 3700 3176 50  0000 C CNN
+F 2 "" H 3700 2950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3700 2950 50  0001 C CNN
+	2    3700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U3
+U 3 1 5E9AAC95
+P 3700 3450
+F 0 "U3" H 3700 3767 50  0000 C CNN
+F 1 "74LS04" H 3700 3676 50  0000 C CNN
+F 2 "" H 3700 3450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3700 3450 50  0001 C CNN
+	3    3700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U3
+U 4 1 5E9AC1B0
+P 3700 3950
+F 0 "U3" H 3700 4267 50  0000 C CNN
+F 1 "74LS04" H 3700 4176 50  0000 C CNN
+F 2 "" H 3700 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3700 3950 50  0001 C CNN
+	4    3700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U3
+U 5 1 5E9AD2AE
+P 3700 4450
+F 0 "U3" H 3700 4767 50  0000 C CNN
+F 1 "74LS04" H 3700 4676 50  0000 C CNN
+F 2 "" H 3700 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3700 4450 50  0001 C CNN
+	5    3700 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U4
+U 1 1 5E9AED16
+P 3700 5450
+F 0 "U4" H 3700 5767 50  0000 C CNN
+F 1 "74LS04" H 3700 5676 50  0000 C CNN
+F 2 "" H 3700 5450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3700 5450 50  0001 C CNN
+	1    3700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U4
+U 2 1 5E9AFB60
+P 3700 5950
+F 0 "U4" H 3700 6267 50  0000 C CNN
+F 1 "74LS04" H 3700 6176 50  0000 C CNN
+F 2 "" H 3700 5950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3700 5950 50  0001 C CNN
+	2    3700 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U3
+U 6 1 5E9B58E6
+P 3700 4950
+F 0 "U3" H 3700 5267 50  0000 C CNN
+F 1 "74LS04" H 3700 5176 50  0000 C CNN
+F 2 "" H 3700 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3700 4950 50  0001 C CNN
+	6    3700 4950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
